@@ -10,10 +10,20 @@ const NavbarWrapper = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: transparent;
-  position: relative;
+  background-color: ${({ theme }) => theme.colors.background}; /* Adjust color for visibility */
+  position: fixed; /* Change from relative to fixed */
+  top: 0; /* Fix to the top of the viewport */
+  left: 0;
+  right: 0;
   z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  transition: background-color 0.3s ease;
+
+  @media (max-width: 768px) {
+    padding: 10px 15px;
+  }
 `;
+
 
 const Brand = styled.div`
   font-size: 1.5rem;
@@ -48,6 +58,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   position: relative;
   padding: 10px 0;
+  cursor: pointer;
 
   &:hover {
     color: ${({ theme }) => theme.colors.secondary};

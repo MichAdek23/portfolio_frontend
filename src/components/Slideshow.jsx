@@ -40,6 +40,9 @@ const Slideshow = () => {
     'https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?t=st=1734145637~exp=1734149237~hmac=a0820263caf085fee56a7f49d01a260cbeaf0e22b993e645d016224991895d73&w=740',
     'https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?t=st=1734145637~exp=1734149237~hmac=a0820263caf085fee56a7f49d01a260cbeaf0e22b993e645d016224991895d73&w=740',
     'https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?t=st=1734145637~exp=1734149237~hmac=a0820263caf085fee56a7f49d01a260cbeaf0e22b993e645d016224991895d73&w=740',
+    'https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?t=st=1734145637~exp=1734149237~hmac=a0820263caf085fee56a7f49d01a260cbeaf0e22b993e645d016224991895d73&w=740',
+    'https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?t=st=1734145637~exp=1734149237~hmac=a0820263caf085fee56a7f49d01a260cbeaf0e22b993e645d016224991895d73&w=740',
+    'https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?t=st=1734145637~exp=1734149237~hmac=a0820263caf085fee56a7f49d01a260cbeaf0e22b993e645d016224991895d73&w=740',
   ];
 
 // Styled components for slideshow

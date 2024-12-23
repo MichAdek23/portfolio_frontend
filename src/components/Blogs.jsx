@@ -47,7 +47,7 @@ const BlogCard = styled.div`
   box-shadow: 0px 4px 6px rgba(50, 48, 80, 0.9);
   border-radius: 8px;
   overflow: hidden;
-  flex: 0 0 calc(33.333% - 20px); /* Cards take up one-third of the viewport minus gap */
+  flex: 0 0 calc(80.666% - 20px); /* Cards take up one-third of the viewport minus gap */
   max-width: 300px; /* Ensures cards don't grow too large */
   scroll-snap-align: start; /* Snaps each card into view when scrolling */
 

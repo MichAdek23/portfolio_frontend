@@ -15,6 +15,7 @@ const HeroWrapper = styled.div`
   gap: ${({ theme }) => theme.spacing(4)};
 
   @media (min-width: 768px) {
+    padding-top: 80px;
     flex-direction: row;
     padding: ${({ theme }) => theme.spacing(8)};
   }
